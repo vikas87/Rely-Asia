@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Clot Conclave</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="page01-07"></div>
+
+<div id="PI"></div>
+
+<div id="PI01" onClick="PI01()"></div>
+
+<div id="PI02" onClick="PI02()"></div>
+
+</div>
+
+<script type="text/javascript">
+
+function PI01(){
+document.getElementById("PI01").style.visibility='hidden';
+document.getElementById("PI02").style.visibility='visible';
+document.getElementById("PI").style.visibility='visible';
+}
+
+function PI02(){
+document.getElementById("PI01").style.visibility='visible';
+document.getElementById("PI02").style.visibility='hidden';
+document.getElementById("PI").style.visibility='hidden';
+}
+
+</script>
+
+</body>
+</html>
